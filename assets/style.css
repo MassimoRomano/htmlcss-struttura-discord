@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100%;
+    height: 200%;
 }
 
 
@@ -18,8 +18,8 @@ body {
 
 .logo {
     background-color: beige;
-    height: 20px;
-    width: 50px;
+    height: 18px;
+    width: 100px;
     text-align: center;
     border-color: black;
     border-style:dashed;
@@ -28,8 +28,8 @@ body {
 
 .link {
     background-color: rgb(248, 215, 174);
-    height: 20px;
-    width: 200px;
+    height: 18px;
+    width: 250px;
     text-align: center;
     border-color: black;
     border-style:dashed;
@@ -37,8 +37,8 @@ body {
 
 .login {
     background-color: bisque;
-    height: 20px;
-    width: 50px;
+    height: 18px;
+    width: 100px;
     text-align: center;
     border-color: black;
     border-style:dashed;
@@ -54,7 +54,7 @@ main {
 
 #first_container {
     background-color: white;
-    height: 10%;
+    height:  250px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -64,11 +64,12 @@ main {
 
 .img_1{
     background-color: rgb(248, 174, 244);
-    height: 50px;
-    width: 400px;
+    height: 200px;
+    width: 350px;
     text-align: center;
     border-color: black;
     border-style:dashed;
+    margin: 10px 0 ;
 
 }
 
@@ -79,7 +80,7 @@ main {
 
 #second_container {
     background-color: #D3D3D3;
-    height: 10%;
+    height:  180px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,14 +94,13 @@ main {
     text-align: center;
     border-color: black;
     border-style:dashed;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 ;
 }
 
 .text_2{
     background-color: rgb(248, 185, 174);
     height: 150px;
-    width: 180px;
+    width: 150px;
     text-align: center;
     border-color: black;
     border-style:dashed;
@@ -110,7 +110,7 @@ main {
 
 #third_container {
     background-color: white);
-    height: 10%;
+    height: 180px;
     display: flex;
     flex-direction:row-reverse;
     align-items: center;
@@ -123,20 +123,18 @@ main {
     text-align: center;
     border-color: black;
     border-style:dashed;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 ;
 }
 
 
 .text_3{
     background-color: rgb(248, 185, 174);
     height: 150px;
-    width: 180px;
+    width: 150px;
     text-align: center;
     border-color: black;
     border-style:dashed;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 ;
 }
 
 
@@ -144,7 +142,7 @@ main {
 
 #fourth_container {
     background-color: #D3D3D3;
-    height: 10%;
+    height: 180px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -157,25 +155,23 @@ main {
     text-align: center;
     border-color: black;
     border-style:dashed;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 ;
 }
 
 
 .text_4{
     background-color: rgb(248, 185, 174);
     height: 150px;
-    width: 180px;
+    width: 150px;
     text-align: center;
     border-color: black;
     border-style:dashed;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 ;
 }
 
 #fifth_container{
     background-color: #ffffff;
-    height: 20%;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,6 +192,33 @@ main {
     background-color: rgb(0, 0, 0);
     height: 200px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: stretch;
     justify-content: center;
+}
+
+.text_6{
+    background-color: pink;
+    height: 30px;
+    width: 50px;
+}
+.text_7{
+    background-color: pink;
+    height: 30px;
+    width: 50px;
+}
+.text_8{
+    background-color: pink;
+    height: 30px;
+    width: 50px;
+}
+.text_9{
+    background-color: pink;
+    height: 30px;
+    width: 50px;
+}
+.text_10{
+    background-color: pink;
+    height: 30px;
+    width: 50px;
 }
