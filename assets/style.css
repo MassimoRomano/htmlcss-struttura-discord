@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#container_head{
+    background-color: blue;
+    height: 50px;
+    
+}
+
+#first_container{
+    background-color: aqua;
+    height: 200px;
+}
+
+#second_container{
+    background-color: rgb(0, 255, 115);
+    height: 200px;
+}
+
+#third_container{
+    background-color: rgb(255, 0, 13);
+    height: 200px;
+}
+
+#fourth_container{
+    background-color: rgb(0, 140, 255);
+    height: 100px;
+}
+
+#container_foot{
+    background-color: black;
+    height: 50px;
+
+}
+
+
+
